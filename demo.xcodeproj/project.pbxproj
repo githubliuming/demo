@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A3C9E2120BFC45600401A71 /* BenzCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3C9E2020BFC45600401A71 /* BenzCar.m */; };
 		8A3E568120BE80AE0070FF66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E568020BE80AE0070FF66 /* main.m */; };
 		8A3E568A20BE84CB0070FF66 /* StringFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E568920BE84CB0070FF66 /* StringFactory.m */; };
 		8A3E568D20BE85DF0070FF66 /* LineStyleHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E568C20BE85DF0070FF66 /* LineStyleHandler.m */; };
@@ -27,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8A3C9E1F20BFC45600401A71 /* BenzCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BenzCar.h; sourceTree = "<group>"; };
+		8A3C9E2020BFC45600401A71 /* BenzCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BenzCar.m; sourceTree = "<group>"; };
 		8A3E567D20BE80AE0070FF66 /* demo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = demo; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A3E568020BE80AE0070FF66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8A3E568720BE80DF0070FF66 /* Factory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
@@ -51,6 +54,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A3C9E1E20BFC3BB00401A71 /* prototype */ = {
+			isa = PBXGroup;
+			children = (
+				8A3C9E1F20BFC45600401A71 /* BenzCar.h */,
+				8A3C9E2020BFC45600401A71 /* BenzCar.m */,
+			);
+			path = prototype;
+			sourceTree = "<group>";
+		};
 		8A3E567420BE80AD0070FF66 = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +82,7 @@
 		8A3E567F20BE80AE0070FF66 /* demo */ = {
 			isa = PBXGroup;
 			children = (
+				8A3C9E1E20BFC3BB00401A71 /* prototype */,
 				8A3E596D20BE8C050070FF66 /* Facotory */,
 				8A3E568020BE80AE0070FF66 /* main.m */,
 			);
@@ -150,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A3E568D20BE85DF0070FF66 /* LineStyleHandler.m in Sources */,
+				8A3C9E2120BFC45600401A71 /* BenzCar.m in Sources */,
 				8A3E568120BE80AE0070FF66 /* main.m in Sources */,
 				8A3E569320BE86120070FF66 /* BordHandler.m in Sources */,
 				8A3E569020BE85FE0070FF66 /* ItalicHandler.m in Sources */,
